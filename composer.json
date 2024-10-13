@@ -12,12 +12,15 @@
     {
       "name": "PiSystems",
       "email": "kontakt@pisystems.pl",
-      "homepage": "http://pisystems.pl",
+      "homepage": "https://netsource.pl",
       "role": "Developer"
     }
   ],
+  "version": "2.0.0",
   "require": {
-    "php": ">=5.6.4"
+    "php": ">=8.2",
+    "psr/log": "^1 || ^2 || ^3",
+    "ext-curl": "*"
   },
   "autoload": {
     "psr-4": {
