@@ -2,7 +2,7 @@
 
 Library for all methods available in [Fakturownia API](https://app.fakturownia.pl/api/).
 
-[![Latest stable version](https://img.shields.io/badge/current_version-v2.0-blue)](https://packagist.org/packages/pisystems/fakturownia)
+[![Latest stable version](https://img.shields.io/badge/current_version-v2.0.0-blue)](https://packagist.org/packages/pisystems/fakturownia)
 [![PHP version](https://img.shields.io/badge/php->=8.2.0-blue)](https://php.net)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
