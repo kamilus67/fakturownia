@@ -7,10 +7,11 @@ use PiSystems\Fakturownia\Enum\Invoice\Status;
 
 class InvoicesApi extends ApiAction
 {
-    public function create(array $data): array
+    public function create(array $data, bool $govSaveAndSend = false): array
     {
         return $this->run(static::POST, 'invoices.json', [], [
             'api_token' => $this->tokenApi,
+            'gov_save_and_send' => $govSaveAndSend,
             'invoice' => $data
         ]);
     }
