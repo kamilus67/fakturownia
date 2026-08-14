@@ -16,7 +16,7 @@
       "role": "Developer"
     }
   ],
-  "version": "2.0.0",
+  "version": "2.0.2",
   "require": {
     "php": ">=8.2",
     "psr/log": "^1 || ^2 || ^3",
